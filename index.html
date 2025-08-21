@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MEL-TECH | Standish Engineered</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <img src="assets/banner.png" alt="MEL-TECH Banner" class="banner" />
+    <h1>MEL-TECH Systems</h1>
+    <p class="tagline">Built in Standish. Designed for everywhere.</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#updater">Updater</a></li>
+      <li><a href="#diagnostics">Diagnostics</a></li>
+      <li><a href="#branding">Branding</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="updater">
+      <h2>Updater Portal</h2>
+      <p>Latest APK builds, splash previews, and manifest tips.</p>
+      <a href="changelog/updates.md" target="_blank">View Changelog</a>
+    </section>
+
+    <section id="diagnostics">
+      <h2>Device Diagnostics</h2>
+      <ul>
+        <li>Wireless ADB pairing guide</li>
+        <li>Logcat parsing tips</li>
+        <li>Drawable crash checklist</li>
+      </ul>
+    </section>
+
+    <section id="branding">
+      <h2>Asset Vault</h2>
+      <p>Download skins, glitch banners, and icon packs.</p>
+      <button onclick="downloadAssets()">Download Branding Pack</button>
+    </section>
+
+    <section id="contact">
+      <h2>Get in Touch</h2>
+      <form action="https://formspree.io/f/your-form-id" method="POST">
+        <input type="text" name="name" placeholder="Your name" required />
+        <input type="email" name="email" placeholder="Your email" required />
+        <textarea name="message" placeholder="Your message"></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© MEL-TECH, Standish MI. All systems intentional.</p>
+  </footer>
+
+  <script src="scripts/main.js"></script>
+</body>
+</html>
