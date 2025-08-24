@@ -1,15 +1,12 @@
 {
-  "latestVersion": "1.0.3",
-  "apkUrl": "https://christianmellon7.github.io/meltech-updater/meltech-updater.apk",
-  "changelog": [
-    {
-      "version": "1.0.3",
-      "date": "2025-08-24",
-      "changes": [
-        "Added BlueSkyOS Settings integration",
-        "Fixed download button",
-        "Improved APK install reliability"
-      ]
-    }
-  ]
+  "latestVersion": "v1.0.3",
+  "updateUrl": "https://christianmellon7.github.io/meltech-updater/meltech-updater.apk",
+  "changelog": {
+    "version": "v1.0.3",
+    "date": "2025-08-24",
+    "changes": [
+      "Added BlueSkyOS Settings integration",
+      "Improved APK install reliability"
+    ]
+  }
 }
