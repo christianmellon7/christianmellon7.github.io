@@ -1,22 +1,14 @@
 {
-  "latestVersion": "1.0.2",
+  "latestVersion": "1.0.3",
   "apkUrl": "https://christianmellon7.github.io/meltech-updater/meltech-updater.apk",
   "changelog": [
     {
-      "version": "1.0.2",
+      "version": "1.0.3",
       "date": "2025-08-21",
       "changes": [
         "Added BlueSkyOS Settings integration",
-        "Fixed splash screen crash on launch",
+        "Fixed download button",
         "Improved APK install reliability"
-      ]
-    },
-    {
-      "version": "1.0.1",
-      "date": "2025-08-18",
-      "changes": [
-        "Initial public release",
-        "Version check and install flow added"
       ]
     }
   ]
